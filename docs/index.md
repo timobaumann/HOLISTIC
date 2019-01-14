@@ -33,9 +33,12 @@ We deliver data from the **Spoken Wikipedia Corpus** in several languages (Germa
 
 ## Tracks
 You can compete in two tracks:
-1. Signal-based EoU estimation. These end-to-end predictors should be language-independent and consdder speech frames as input.
+1. Signal-based EoU estimation. These end-to-end predictors should be language-independent and consider speech frames as input.
 2. Language-specific EoU estimation. These predictors may exploit incremental ASR results that reflect what a system 
 would be able to perceive at the given point in time in the middle of an utterance.
+
+## Dissemination of the results
+The results will be disseminated through the HOLISTIC Special Session at Interspeech 2019 (our special session proposal was accepted). Besides prediction scores, we ask each participant to send their system descriptions (but not codes/scripts) - similar to the NIST SREs. We will submit a challenge summary paper to Interspeech, and  encourage the participants to submit papers describing their individual systems. This way the accepted papers would be available through the ISCA Archive in the Interspeech proceedings.
 
 ## Organizers
 
