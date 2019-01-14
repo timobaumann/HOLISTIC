@@ -29,7 +29,7 @@ We deliver data from the **Spoken Wikipedia Corpus** in several languages (Germa
 
 1. American-English data: 1000 hours [.tar]
 2. German data: xx hours [.tar]
-3. French data: 10 hours [.tar]
+3. French data: 10 hours [[Wikimedia_FR.tar.gz; 148 articles; 4.8Go|https://drive.google.com/file/d/19RjZfzt5oPOWlOQXJRG36-TKpxSG-IG8/view?usp=sharing]]
 
 ## Tracks
 You can compete in two tracks:
