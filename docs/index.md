@@ -27,6 +27,10 @@ multimodal and/or multiparty conversation data in future iterations of the chall
 
 We deliver data from the **Spoken Wikipedia Corpus** in several languages (German, English, French) that has been automatically parsed by a robust VAD. We provide raw signals sampled at 16khz together with .TextGrid files segmented into alternating silent intervals (labelled as **__**) and speech intervals (labelled as **utt**).
 
+1. American-English data: 1000 hours [.tar]
+2. German data: xx hours [.tar]
+3. French data: 10 hours [.tar]
+
 ## Tracks
 You can compete in two tracks:
 1. Signal-based EoU estimation. These end-to-end predictors should be language-independent and consdder speech frames as input.
