@@ -25,7 +25,7 @@ The tasks consist in associating each 10ms signal frame with one out of 7 labels
 In this first challenge, we focus on read speech. We will extend the task to dialogic, 
 multimodal and/or multiparty conversation data in future iterations of the challenge.
 
-We deliver data from the **Spoken Wikipedia Corpus** in several languages (German, English, French) that has been automatically parsed by a robust VAD. We provide raw signals sampled at 16khz together with .TextGrid files segmented into alternating silent intervals (labelled as **__**) and speech intervals (labelled as **utt**).
+We deliver data from the **Spoken Wikipedia Corpus** in several languages (German, English, French) that has been automatically parsed by a robust VAD. We provide raw signals sampled at 16khz together with .TextGrid files segmented into alternating silent intervals (labelled as **"__"**) and speech intervals (labelled as **"utt"**).
 
 1. American-English data: 1000 hours [.tar]
 2. German data: xx hours [.tar]
