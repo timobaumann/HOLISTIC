@@ -21,7 +21,7 @@ The aim is thus to go beyond a simple incremental Voice Activity Detector (VAD);
 
 The tasks consist in associating each 10ms signal frame with one out of 7 labels: 0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU.
 
-[[pred_EoU.png|alt=Coding EoU prediction]]
+[[https://github.com/timobaumann/HOLISTIC/blob/master/docs/pred_EoU.png|alt=Coding EoU prediction]]
 
 ## Data
 In this first challenge, we focus on read speech. We will extend the task to dialogic, 
