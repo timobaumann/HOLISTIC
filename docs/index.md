@@ -19,9 +19,10 @@ The task of the challenge is to incrementally estimate how much material is sill
 the end of the user utterance (EoU) based on the audio that has been produced (and perceived) so far.
 The aim is thus to go beyond a simple incremental Voice Activity Detector (VAD); each speech frame is complemented with its discretized distance to the EoU [6-valued cue]: 1) >500 ms; 2) [500-400[ ms; 3) [400-300[ ms; 4) [300-200[ ms; 5) [200-100[; 6) <100ms
 
-The tasks consist in associating each 10ms signal frame with one out of 7 labels: 0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU.
+The tasks consist in associating each 10ms signal frame with one out of 7 labels: 0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU (cf. Fig.1).
 
-![Coding EoU prediction](pred_EoU.png) | Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-7]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red.
+![Coding EoU prediction](pred_EoU.png)
+Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-7]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red.
 
 ## Data
 In this first challenge, we focus on read speech. We will extend the task to dialogic, 
