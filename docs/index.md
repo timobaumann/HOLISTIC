@@ -22,7 +22,7 @@ The aim is thus to go beyond a simple incremental Voice Activity Detector (VAD);
 The tasks consist in associating each 10ms signal frame with one out of 7 labels: 0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU (cf. Fig.1).
 
 <p align="center"><img src="pred_EoU.png" /><br/>
-Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-7]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red.
+Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-7]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red. The prepausal steps are 10 frames (i.e. 100ms) long.
 </p>
 
 ## Data
