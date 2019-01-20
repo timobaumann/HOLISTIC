@@ -71,22 +71,21 @@ a JAVA implementation is available on the [SWC website](http://nats.gitlab.io/sw
 Please indicate your participation by filling this form and sending the resulting e-mail:
 
 <form action="https://formspree.io/mail@timobaumann.de" method="POST">
-  <input type="checkbox" name="languages" value="EN">English</input>
 <table>
   <tr><td>Name:</td><td><input type="text" name="name"/></td></tr>
   <tr><td>Affiliation:</td><td><input type="text" name="affiliation"/></td></tr>
   <tr><td>E-Mail:</td><td><input type="email" name="_replyto"/></td></tr>
   <tr><td>Scope of participation:</td></tr>
   <tr><td valign="top">Languages</td><td>
-  <input type="checkbox" name="languages" value="EN">English</input>
-  <input type="checkbox" name="languages" value="FR">French</input><td></tr>
+  <input type="checkbox" name="languages" value="EN"/>English<br/>
+  <input type="checkbox" name="languages" value="FR"/>French</td></tr>
   <tr><td valign="top">Types of inputs</td><td>
-  <input type="checkbox" name="types" value="audio">Audio</input>
-  <input type="checkbox" name="types" value="text">Text</input>
-  <input type="checkbox" name="types" value="both">Syntax</input>
-  <input type="checkbox" name="types" value="other">other:</input><input type="text" name="typeother"/></td></tr>
+  <input type="checkbox" name="types" value="audio"/>Audio<br/>
+  <input type="checkbox" name="types" value="text"/>Text<br/>
+  <input type="checkbox" name="types" value="both"/>Syntax<br/>
+  <input type="checkbox" name="types" value="other"/>other:<input type="text" name="typeother"/></td></tr>
   <tr><td valign="top">Further comments:</td><td><textarea name="comments"></textarea></td></tr>
-  <tr><td></td><td><input type="submit" value="Send"/></td></tr>
+  <tr><td/><td><input type="submit" value="Send"/></td></tr>
 </table>
 </form> 
 
