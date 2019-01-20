@@ -71,6 +71,7 @@ a JAVA implementation is available on the [SWC website](http://nats.gitlab.io/sw
 Please indicate your participation by filling this form and sending the resulting e-mail:
 
 <form action="https://formspree.io/mail@timobaumann.de" method="POST">
+  <input type="checkbox" name="languages" value="EN">English</input>
 <table>
   <tr><td>Name:</td><td><input type="text" name="name"/></td></tr>
   <tr><td>Affiliation:</td><td><input type="text" name="affiliation"/></td></tr>
