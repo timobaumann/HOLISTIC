@@ -77,12 +77,12 @@ Please indicate your participation by filling this form and sending the resultin
   <tr><td>E-Mail:</td><td><input type="email" name="_replyto"/></td></tr>
   <tr><td>Scope of participation:</td></tr>
   <tr><td valign="top">Languages</td><td>
-  <input type="checkbox" name="languages" value="EN">English</input><br />
+  <input type="checkbox" name="languages" value="EN">English</input><br/>
   <input type="checkbox" name="languages" value="FR">French</input><td></tr>
   <tr><td valign="top">Types of inputs</td><td>
-  <input type="checkbox" name="types" value="audio">Audio</input><br />
-  <input type="checkbox" name="types" value="text">Text</input><br />
-  <input type="checkbox" name="types" value="both">Syntax</input><br />
+  <input type="checkbox" name="types" value="audio">Audio</input><br/>
+  <input type="checkbox" name="types" value="text">Text</input><br/>
+  <input type="checkbox" name="types" value="both">Syntax</input><br/>
   <input type="checkbox" name="types" value="other">other:</input><input type="text" name="typeother"/></td></tr>
   <tr><td valign="top">Further comments:</td><td><textarea name="comments"></textarea></td></tr>
   <tr><td/><td><input type="submit" value="Send"/></td></tr>
