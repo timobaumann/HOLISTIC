@@ -25,13 +25,13 @@ The aim is thus to go beyond a simple incremental Voice Activity Detector (VAD);
 each speech frame is complemented with its discretized distance to the EoU [7-valued cue]: 
 (0) no speech (1) ]0-20ms], (2) ]20-50ms], (3) ]50-120ms], (4) ]120-250ms], (5) ]250-500ms], (6) > 500ms until the end of the utterance.
 **In the evaluation, we will inform you of the precise distance of the frame 
-so you may choose to outfit your solver to be more precise than the above-mentioned bins.**
+so you may choose to outfit your solver to be more precise than the above-mentioned bins.
 
-The tasks consist in associating each 10ms signal frame (and the full signal leading up to this point) with one out of 7 labels: 
+The task consists in associating each 10ms signal frame (and the full signal leading up to this point) with one out of 7 labels: 
 0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU (cf. Fig.1).
-**You may also participate in a mode that skips such anticipatory prediction and just focus on incremental VAD
+**You may also participate in a mode that skips such anticipatory prediction and just focus on incremental VAD.
 
-<p align="center"><img src="pred_EoU3.png" /><img src="pred_EoU5.png" />p<br/>
+<p align="center"><img height="50%" width="50%" src="pred_EoU3.png" /><img height="50%" width="50%" src="pred_EoU5.png" />p<br/>
 Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-6]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red. The lengths of prepausal steps evolve logarithmically: 1:2 frames ]0-20ms], 2:3 frames ]20-50ms], 3:7 frames ]50-120ms], 4: 13 frames ]120-250ms], 5: 25 frames ]250-500ms]
 </p>
 
