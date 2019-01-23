@@ -22,17 +22,17 @@ where analysis of performance of various predictive models on large data sets ca
 The task of the challenge is to incrementally estimate/anticipate how much material is sill missing until 
 the end of the user utterance (EoU) (or user sentence, EoS) based on the audio that has been produced (and perceived) so far.
 The aim is thus to go beyond a simple incremental Voice Activity Detector (VAD); 
-each speech frame is complemented with its discretized distance to the EoU [5-valued cue]: 
-(1) 0-49 ms; (2) 50-99 ms; (3) 100-199 ms; (4) 200-399 ms; (5) >400 ms until the end of the utterance; (0) no speech.
+each speech frame is complemented with its discretized distance to the EoU [7-valued cue]: 
+(0) no speech (1) ]0-20ms], (2) ]20-50ms], (3) ]50-120ms], (4) ]120-250ms], (5) ]250-500ms], (6) > 500ms until the end of the utterance.
 **In the evaluation, we will inform you of the precise distance of the frame 
 so you may choose to outfit your solver to be more precise than the above-mentioned bins.**
 
-The tasks consist in associating each 10ms signal frame (and the full signal leading up to this point) with one out of 6 labels: 
-0 for silent frames, [1-5] for speech frames accprding to their relative distance from upcoming EoU (cf. Fig.1).
-**You may also participate in a mode that skips 
+The tasks consist in associating each 10ms signal frame (and the full signal leading up to this point) with one out of 7 labels: 
+0 for silent frames, [1-6] for speech frames accprding to their relative distance from upcoming EoU (cf. Fig.1).
+**You may also participate in a mode that skips such anticipatory prediction and just focus on incremental VAD
 
-<p align="center"><img src="pred_EoU.png" /><br/>
-Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-7]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red. The prepausal steps are 10 frames (i.e. 100ms) long. **Notice that we have since moved to logarithmic step sizes.**
+<p align="center"><img src="pred_EoU3.png" /><img src="pred_EoU5.png" />p<br/>
+Fig.1: Coding EoU prediction: 10ms frames are assigned one out of 7 labels [0-6]. Ground truth (blue steps) is coded according to VAD. Sample prediction is figured in red. The lengths of prepausal steps evolve logarithmically: 1:2 frames ]0-20ms], 2:3 frames ]20-50ms], 3:7 frames ]50-120ms], 4: 13 frames ]120-250ms], 5: 25 frames ]250-500ms]
 </p>
 
 ## Tracks
